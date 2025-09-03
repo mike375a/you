@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wabenzi</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 id="question" >Do You Love me? 🙄</h1>
+        <div class="videoc">
+            <video id="fstmood" autoplay loop muted playsibline>
+                <source src="fstmood.mp4" type="video/mp4">
+            </video>
+
+            <video id="scndmood" class="hidden" loop> 
+                <source src="scndmood.mp4" type="video/mp4">
+            </video>
+        <div id="celebration" class="hidden">
+            <h1>I Knew It! 💕🎉</h1>
+            <h2>I Love You Too💞</h2> 
+        </div>
+        </div>
+        <div class="buttons">
+            <button id="yesbtn">Yes 💖</button>
+            <button id="nobtn">No 😥</button>
+
+        </div>
+       
+
+    </div>
+
+    <canvas id="confetti"></canvas>
+
+    <!--<audio id="cheeringsound" src="cheeringsound.mp3" preload="auto"></audio>-->
+          <script src="index.js"></script>
+</body>
+</html>

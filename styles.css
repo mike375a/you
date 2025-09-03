@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ee5c6d, #e7a0a9);
+    font-family: Arial,  sans-serif;
+    overflow: hidden;
+}
+
+.container{
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.videoc{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+}
+.videoc video{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+.hidden{
+    display: none !important;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+button{
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform o.2s;
+}
+#yesbtn{
+    background-color: #ff4081;
+    color: #fff;
+}
+#nobtn{
+    background-color: #555;
+    color: #fff;
+    position: relative;
+}
+#celebration{
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: bold;
+}
+canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#celebration h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #0e86ad;
+}
+#celebration h2{
+    font-size: 2rem;
+    color: #e90c0c;
+}
+#question{
+    color: #131375;
+}
